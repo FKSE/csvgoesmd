@@ -1,0 +1,15 @@
+Feldname;Beschreibung;Nachrichtenarten
+byCity;Ortsname des K�ufers z.B. *M�nchen*. Dieses Feld ist optional und wird nur bei fehlender GLN-Nummer ben�tigt.;`DESADV`
+byCountry;Land als ISO 3166 2-Alpha Code z.B. *DE*. Dieses Feld ist optional und wird nur bei fehlender GLN-Nummer ben�tigt.;`DESADV`
+byGln;GLN-Nummer des K�ufers;`DESADV`, `SLSRPT`
+byName;Partnername in Klartext z.B. *Fritz M�ller* oder *Huber & Sohn Sportfachhandel GmbH*. Dieses Feld ist optional und wird nur bei fehlender GLN-Nummer ben�tigt.;`DESADV`
+byStreet;Geb�udename/-nummer und Stra�enname oder Postfach z.B. *Gartenstra�e 10a*. Dieses Feld ist optional und wird nur bei fehlender GLN-Nummer ben�tigt.;`DESADV`
+byZipCode;Postleitzahl des K�ufers z.B. *81541*. Dieses Feld ist optional und wird nur bei fehlender GLN-Nummer ben�tigt.;`DESADV`
+createDate;Erstelldatum des Dokuments im Format `DDMMYYYY` z.B. 25012015;`DESADV`, `SLSRPT`
+currency;W�hrung z.B. *EUR* f�r EURO;`SLSRPT`
+dispatchDate;Versanddatum im Format `DDMMYYYY` z.B. 25012015;`DESADV`
+documentId;Eindeutiges Identifikationsmerkmal des Dokuments z.B. Lieferscheinnummer oder Rechnungsnummer;`DESADV`, `SLSRPT`
+documentType;EDIFACT Nachrichtenart z.B. `73E = Verkaufsdatenbericht` oder `380 = Handelsrechnung`;`DESADV`, `SLSRPT`
+dpCity;Ortsname der Lieferanschrift z.B. *M�nchen*. Dieses Feld ist optional und wird nur bei fehlender GLN-Nummer ben�tigt.;`DESADV`
+dpCountry;Land als ISO 3166 2-Alpha Code z.B. *DE*. Dieses Feld ist optional und wird nur bei fehlender GLN-Nummer ben�tigt.;`DESADV`
+dpGln;GLN-Nummer der Lieferanschrift.;`DESADV`
