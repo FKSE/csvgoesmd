@@ -18,6 +18,10 @@ func TestMaxColLen(t *testing.T) {
 	ac, err := maxColLen(in)
 	assert.Nil(t, err)
 	assert.Equal(t, ex, ac, "Result ist wrong")
+	// test empty
+	ac, err = maxColLen([][]string{})
+	assert.Nil(t, ac)
+	assert.Error(t, err)
 }
 
 func BenchmarkMaxColLen(b *testing.B) {
